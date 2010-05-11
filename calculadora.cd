@@ -1,0 +1,39 @@
+int bigBang (void)
+{
+	char %op;
+	double %num1, %num2, %result;
+
+	echoln("Digite dois números: ");
+	rec(%num1, %num2);
+
+	echoln("Digite a operação: ");
+	rec(%op);
+
+	switch(%op)
+	{
+		case '+' :
+		%result = %num1 + %num2;
+		echoln("O resultado é: ", %result);
+		break;
+
+		case '-' :
+		%result = %num1 - %num2;
+		echoln("O resultado é: ", %result);
+		break;
+
+		case '*' :
+		%result = %num1 * %num2;
+		echoln("O resultado é: ", %result);
+		break;
+
+		case '/' :
+		%result = %num1 / %num2;
+		echoln("O resultado é: ", %result);
+		break;
+
+		default:
+		echoln("Operacão inválida");
+	}
+
+	return(0);
+}

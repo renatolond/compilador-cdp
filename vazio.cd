@@ -1,0 +1,4 @@
+int bigBang (void)
+{
+    return 0;
+}

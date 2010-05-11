@@ -1,0 +1,27 @@
+int bigBang (void)
+{
+	int %a, %i;
+	%a = 90;
+	while ( %a > 45 )
+	{
+		%a = %a-1;
+	}
+
+	%a = 90;
+	do
+	{
+		%a = %a-1;
+	}
+	while ( %a > 45 );
+	
+	%a = 0;
+	for ( %i = 0 ; %i < 10 ; %i = %i + 1 )
+	{
+		%a = %a + %i;
+		continue;
+	}
+	
+	echoln(%a,' ',%i);
+
+	return 0;
+}

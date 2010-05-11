@@ -1,0 +1,40 @@
+
+int mdc(int %n1, int %n2);
+
+int mdc(int %n1, int %n2)
+{
+    int %cont, %res;
+
+    for (%cont = 1; %cont <= %n1; %cont = %cont +1 )
+    {
+        if ((%n1 % %cont == 0) && (%n2 % %cont == 0))
+            %res = %cont;
+    }
+    return(%res);
+}
+
+int bigBang(void)
+{
+    int %n1, %n2, %res;
+
+    echoln("Entre com os numeros: ");
+    rec(%n1, %n2);
+
+    while ((%n1 != 0) && (%n2 != 0))
+    {
+	    if ( %n1 < %n2 )
+	    {
+		    %res = $mdc(%n1,%n2);
+	    }
+	    else
+	    {
+		    %res = $mdc(%n2,%n1);
+	    }
+        echo("O MDC dos numeros ",%n1," e ",%n2, ' ','é',' ',%res,"\n");
+
+        echoln("Entre com os numeros: ");
+        rec(%n1, %n2);
+    }
+    
+    return 0;
+}

@@ -1,0 +1,36 @@
+README de Compilador-cdp
+
+Autores: Renato dos Santos Cerqueira  (DRE: 105093538)
+         Renan Moreira Lobo (DRE: 105083567)
+
+Esse projeto foi testado pela última vez em lex 2.5.35 e bison 2.4.1
+
+Rodando
+  Na pasta do programa, execute make. Ele irá compilar o compilador, e em seguida, compilar os exemplos. Basta então executar os exemplos para ver seus resultados.
+
+Exemplos
+  Acompanham 6 exemplos:
+  vazio.cd - um programa vazio, contém somente a declaração da main.
+  calculadora.cd - contém exemplos de entrada e saída, além de um while e um case.
+  fatorial.cd - faz uso de recursão e chamada de função
+  laco.cd - contém while, do-while e for.
+  mdc.cd - contém entrada e saída, além de mod e comparações
+  string.cd - demonstra o uso de strings, com concatenação
+
+(C) Copyright 2007, Renato Cerqueira, Renan Moreira
+
+This file is part of Compilador-cdp.
+
+Compilador-cdp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Compilador-cdp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Compilador-cdp.  If not, see <http://www.gnu.org/licenses/>.
+
