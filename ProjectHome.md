@@ -1,0 +1,2 @@
+A compiler written in lex/bison for a college discipline in 2007. It is known to work in lex 2.5.35 and bison 2.4.1.
+The language is a c-like language in which functions are called with a $ before them and variables have a % before them, and some other little differences, like string concatenation.
